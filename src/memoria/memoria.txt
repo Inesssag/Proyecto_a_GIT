@@ -1,0 +1,91 @@
+# Memoria del Proyecto de Machine Learning para la cadena de cafeterías 'Panem'
+
+## Introducción
+
+### Objetivo del Proyecto
+
+El objetivo principal de este proyecto es desarrollar un modelo de Machine Learning que pueda predecir qué productos se pueden vender bien de manera conjunta en las sucursales de la cadena de cafeterías 'Panem', situada en México. Esto permitirá diversificar las ventas y mejorar la estrategia de ventas de la cadena.
+
+### Integrantes del Equipo
+
+El proyecto fue desarrollado por un equipo de tres integrantes:
+- Integrante 1
+- Integrante 2
+- Integrante 3
+
+## Reunión Inicial con el Cliente
+
+### Descripción de la Data
+
+En la primera reunión con el dueño de 'Panem', nos explicó la data que se nos proporcionaba. Los datos incluían registros de ventas de todas las sucursales, con información detallada de cada transacción. Los datos abarcaban varios años y contenían información sobre productos vendidos, cantidades, precios, fechas de venta, entre otros.
+
+### Requerimientos del Cliente
+
+El dueño de 'Panem' estaba interesado en analizar los siguientes aspectos:
+- Comportamiento de ventas por producto.
+- Productos que se venden bien de manera conjunta.
+- Identificación de patrones de venta para mejorar la estrategia de marketing y promociones.
+
+## Plan de Trabajo
+
+### División del Trabajo
+
+Para abordar el proyecto de manera eficiente, dividimos las seis sucursales entre las tres integrantes del equipo, asignando dos sucursales a cada una. Esto nos permitió gestionar mejor la gran cantidad de datos y asegurar una distribución equitativa del trabajo.
+
+### Integración de Datos
+
+El primer paso fue revisar la data disponible e intentar unificar los registros de todos los años anteriores en un solo DataFrame. Este proceso se documentó en el notebook titulado "Union". Se aplicó este proceso a todas las sucursales.
+
+### Segmentación de Datos
+
+Debido al gran volumen de datos y para facilitar el análisis, decidimos dividir los DataFrames en dos categorías: bebidas y productos. Esto nos permitió enfocarnos en el análisis sin que el café, siendo el producto más vendido, obstaculizara la visibilidad de otros productos.
+
+## Análisis Exploratorio de Datos (EDA)
+
+### Inconvenientes Encontrados
+
+Durante el EDA, nos encontramos con varios problemas relacionados con la estructura de los datos:
+- Los datos no estaban bien estructurados, lo que dificultaba las consultas.
+- Existían muchas columnas irrelevantes o mal registradas.
+- No se podía obtener el dato de ventas totales de manera precisa debido a la falta de consistencia en los registros.
+
+### Foco del Análisis
+
+Decidimos centrar nuestro análisis en la cantidad de productos vendidos y la manera en que se vendían: de manera conjunta o por separado. Este enfoque nos permitió identificar patrones y tendencias más claras.
+
+## Desarrollo del Modelo de Machine Learning
+
+### Objetivo del Modelo
+
+El modelo de Machine Learning se enfocó en predecir qué productos se pueden vender bien de manera conjunta. Esta información es crucial para diversificar las ventas y diseñar promociones y ofertas efectivas.
+
+### Implementación del Modelo
+
+1. **Preparación de los Datos:** Limpiamos y preparamos los datos, asegurándonos de que estuvieran estructurados correctamente para el modelo.
+2. **Selección de Variables:** Seleccionamos las variables relevantes que influirían en las ventas conjuntas de productos.
+3. **Entrenamiento del Modelo:** Utilizamos técnicas de aprendizaje supervisado para entrenar el modelo con los datos históricos.
+4. **Evaluación del Modelo:** Evaluamos el rendimiento del modelo utilizando métricas adecuadas y ajustamos los parámetros para mejorar la precisión.
+
+## Resultados y Conclusiones
+
+### Resultados
+
+El modelo fue capaz de identificar combinaciones de productos que se vendían bien juntos. Esto proporcionó información valiosa para la estrategia de ventas de 'Panem', permitiendo diseñar promociones específicas y mejorar la experiencia del cliente.
+
+### Conclusiones
+
+El proyecto demostró la importancia de tener datos bien estructurados y la utilidad de aplicar técnicas de Machine Learning para obtener insights valiosos. Además, el enfoque en la diversificación de ventas mediante la identificación de productos que se venden bien juntos puede significar un aumento en las ventas y una mejor satisfacción del cliente.
+
+## Próximos Pasos
+
+### Mejora en el Registro de Datos
+
+Continuamos trabajando en mejorar el registro de los datos y la estructura interna para poder realizar consultas más efectivas en el futuro. Este paso es crucial para garantizar la calidad y consistencia de los datos.
+
+### Análisis Detallado de Ventas
+
+Una vez que los datos estén mejor estructurados, planeamos realizar un análisis más detallado de las ventas, explorando otros aspectos como la influencia de las promociones, la estacionalidad y el comportamiento de los clientes.
+
+---
+
+Este documento refleja el trabajo realizado hasta la fecha y establece una base sólida para futuras mejoras y análisis en la cadena de cafeterías 'Panem'.
